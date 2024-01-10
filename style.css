@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+}
+.top-container{
+    background-color: #B6FFFA;
+    text-align: center;
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+
+.myName-h1{
+    font-family: "Dancing Script", cursive;
+    font-size: 80px;
+    font-weight: 400px;
+    color: #87C4FF;
+}
+.firstParagraph{
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 400px;
+    color: #87C4FF;
+}
+.secondParagraph{
+    width: 30%;
+    margin: auto; 
+    line-height: 2;
+    margin-bottom: 100px;
+}
+.cloud-1{
+     position: absolute;
+     right: 300px;
+}
+
+.cloud-2{
+    position: absolute;
+    bottom: 400px;
+    left: 200px;
+}
+
+.my-profile-photo{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.middle-container{
+    text-align: center;
+}
+
+span{
+    text-decoration: underline;
+}
+
+.hello{
+    font-family: "Roboto", sans-serif;
+    color: #89B9AD;
+}
+
+hr{
+    border: 10px dotted #F2F1EB;
+    border-top: none;
+    width: 50px;
+    margin-bottom: 100px;
+}
+
+.my-skills{
+    color: #89B9AD;
+}
+.margin{
+    margin-bottom: 100px;
+}
+
+.grid-h1{
+    text-align: left;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 50%;
+    margin: auto;
+    gap: 10px;
+    margin-bottom: 100px;
+}
+
+.eggs{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.bottom-container{
+    text-align: center;
+}
+
+button{
+    font-size: 25px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px;
+    margin-top: 50px;
+    background-color: #11cdd4;
+    color: white;
+    
+}
+button:hover{
+    background-color: #F2F1EB;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+ 
+}
+
+footer{
+    background-color: #11cdd4;
+    text-align: center;
+    margin-top: 100px;
+    padding: 70px;
+}
+
+.facebook-footer:hover{
+    color: white;
+}
